@@ -1,0 +1,37 @@
+//Select And Display
+/*
+
+$sql = "select * from 'PHPTrip' ;
+$result = mysqli_query($conn,$sql);
+
+echo mysqli_num_rows($result); //number of rows
+
+$row=mysqli_fetch_assoc($result);
+echo var_dump($row); //return row one
+echo var_dump($row); //return row two
+echo var_dump($row); //return row three
+
+while($row=mysqli_fetch_assoc($row)){
+echo $row['sno']. "hello ". $row['name']."Welcome to ".$row['dest'];
+echo"<br>";}
+              */
+
+//Update
+/*
+$sql = "UPDATE 'phptrip' SET 'name' = 'FromBihar' WHERE 'dest'='Bihar';
+$result = mysqli_query($conn,$sql);
+echo var_dump($result);  //vardump--> returns datatype and value of variable        
+
+$aff = mysqli_affected_rows($conn); //returns number of rows affected in a database
+
+echo "<br> Number of aaffected rows: $aff";
+
+if($result)    //update only returns true or false
+{
+echo "We updated the record successfully";
+}
+
+else{
+echo "We could not update the record successfully";
+}
+*/

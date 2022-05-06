@@ -1,0 +1,22 @@
+Git Commands::
+
+git init (to initialise Repository)
+git status (to get status of repository)
+git add [filename.extension] (send the file to staging area)
+touch [filename.extension] (create a new file)
+git add -A (put all the files in staging area)
+git commit -m "Message"
+git checkout [filename] (brings the file to last committed state)
+git checkout -f (brings all the files to last committed state)
+git log (tells about all the commits)
+git log -p -[n]  (tells about last n commits)
+git diff (compares the working area files to staging area files)
+git diff --staged  (compares staging area files to last committed files)
+git commit -a -m (skips staging area and directly commits the file)
+ls (list all the files in current repository)
+git rm --cached [filename] (removes the file from staging area only)
+git rm [filename] (removes the file from system)
+git branch [branchname]
+git checkout [branchname] (changes branch)
+git merge [branchname] (merges branch with master branch)
+git checkout -b [branchname] (creates new branch and switch to it)
